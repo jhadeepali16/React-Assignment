@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800);
+body{
+  margin:0;
+  padding:0;
+  font-family: Open Sans;
+  font-size: 14px;
+}
+div#root {
+  background: transparent url(https://www.airasia.com/cdn/aa-images/main-banner/inen/eatshopfly_repeat_intl.jpg) no-repeat;
+  background-size: contain;
+  background-position: top center;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+main {
+  width: 980px;
+  margin: 0 auto;
+}
+.heading h1 {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 980px;
+}
+.heading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: white;
+  z-index: 2;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.26);
+  padding: 15px 20px;
+}
+.calendar {
+  border: 1px solid;
+}
+.c-search-engine{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+.c-search-engine .c-flight-search{
+  padding: 15px;
+  padding-top: 25px;
+  width: 40%;
+  box-sizing: content-box;
+}
+.c-search-engine .c-flight-search .element{
+  display: flex;
+  flex-direction: row;
+}
+.c-search-engine .c-flight-search .element .tabs {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 30px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  font-size: 14px;
+  font-weight: bold;
+}
+.c-search-engine .c-flight-search .element .tabs:last-child{
+  margin-left: -10px;
+}
+.c-search-engine .c-flight-search .element .tabs.active {
+  background-color: #f1f1f0;
+  z-index: 1;
+  box-shadow: 2px -3px 6px rgba(0,0,0,.26);
+  margin-bottom: -1px;
+}
+.c-search-engine .c-flight-search .element .tabs:hover {
+  background-color: #f1f1f0;
+  border-color: rgba(0,0,0,0.1);
+}
+.c-search-engine .c-flight-search .form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.26);
+  background-color: #f1f1f0;
+}
+.c-search-engine .c-flight-search .form .element {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 10px;
+  position: relative;
+}
+.form .element label {
+  top: 19px;
+  position: absolute;
+  left: 10px;
+  transition: all 0.4s ease-in-out;
+  font-size: 14px;
+}
+.form .element input, .form .element select {
+  padding: 18px 10px;
+  border: 1px solid #ccc;
+  font-family: Open Sans;
+  font-size: 14px;
+}
+.form .element input.error, .form .element select.error{
+  border-color:red;
+}
+.form .element input.error + label, .form .element select.error + label {
+  color: red;
+}
+.form .element span.error {
+  color: red;
+  font-size: 11px;
+}
+.form .element input:focus + label, .form .element select:focus + label{
+  top: 3px;
+  font-size: 12px;
+}
+.form .element label.active {
+  top: 3px;
+  font-size: 12px;
+}
+.c-search-engine .c-flight-search .form .element button {
+  border-radius: 0;
+  width: auto;
+  padding: 10px;
+  margin: 0;
+  align-self: flex-start;
+  border: 1px solid #e6e6e6;
+  color:#fff;
+  background-color: #00266b;
+}
+.c-search-engine .c-flight-search .form .element button:hover {
+  background-color:#2e77fd;
+  outline: 0;
+}
+.form .element.inactive input{
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #f1f1f1;
+}
+.form .element.inactive label {
+  pointer-events: none;
+  color: #bdb8b8;
+}
+
+.form .element .react-calendar {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  height: auto;
+  z-index: 10;
+}
+.price-slider {
+  padding: 10px 15px 35px;
+  margin-top: 20px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.26);
+  background-color: #f1f1f0;
+}
+.price-slider h2 {
+  text-align: left;
+  margin: 5px 0;
+}
+.price-slider .input-range{
+  padding: 10px;
+  box-sizing: border-box;
+  display: block;
+  max-width: 93%;
+  margin: 50px auto 0;
+}
+.input-range__label-container {
+  font-family: Open sans;
+}
+.input-range__track {
+  background: #adadad;
+}
+.input-range__track--active {
+  background: #3f51b5;
+}
+
+.c-flight-search-result {
+  display: flex;
+  width: 57%;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+}
+.c-flight-search-result p.no-flight{
+  color: #000;
+  text-align:center;
+  font-size: 16px;
+  align-self: center;
+  font-weight: bold;
+}
+.c-flight-search-result .trip{
+  text-align: left;
+  padding: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.c-flight-search-result .trip .date p{
+  margin: 0;
+  font-size: 12px;
+}
+.c-flight-search-result .result .booking{
+  display: flex;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.26);
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.c-flight-search-result .result .booking:hover{
+  background-color: #f1f1f0;
+}
+.c-flight-search-result .result {
+  padding:0 20px;
+}
+.c-flight-search-result .result .booking .left-panel {
+  width: 70%;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.c-flight-search-result .result .booking .left-panel .price {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.c-flight-search-result .result .booking .left-panel .return-trip{
+  display: flex;
+  text-align: left;
+  font-size: 16px;
+  justify-content: space-between;
+}
+.c-flight-search-result .result .booking .left-panel .return-trip .going-trip {
+  margin-right: 20px;
+}
+.c-flight-search-result .result .booking .left-panel .return-trip p{
+  margin:0;
+  margin-bottom: 4px;
+}
+.c-flight-search-result .result .booking .left-panel .return-trip p:first-child{
+  font-size: 12px;
+}
+.c-flight-search-result .result .booking .right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+}
+.c-flight-search-result .result .booking .right-panel button {
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ffad00;
+  color: #000036;
+  transition: all .5s;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.c-flight-search-result .result .booking .right-panel button:hover {
+  box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+}
+.react-datepicker-wrapper {
+  display: block;
+  width: 100%;
+}
+.react-datepicker-wrapper .react-datepicker__input-container {
+  display: block;
+  width: 100%;
+}
+.react-datepicker-wrapper .react-datepicker__input-container input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.react-datepicker__close-icon {
+  display: flex;
+}
+
+@media (max-width: 767px){
+  div#root {
+    background-size: contain;
+    background-position: top center;
+    display: block;
+  }
+  main {
+    width: 100%;
+  }
+  .c-search-engine {
+    flex-direction: column;
+    margin: 0 10px;
+    margin-top: 68px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+  }
+  .c-search-engine .c-flight-search {
+    width: 100%;
+    padding: 0;
+  }
+  .c-flight-search-result {
+    width: 100%;
+    background-color: transparent;
+  }
+  .c-flight-search-result .trip{
+    padding-left: 0;
+    color: #333;
+  }
+  .c-flight-search-result .result{
+    padding:0;
+  }
+  .c-flight-search-result p.no-flight {
+    color: #333;
+  }
+}
+@media (min-width:768px) and (max-width: 1023px) {
+  div#root {
+    background-size: contain;
+    background-position: top center;
+  }
+  .c-search-engine .c-flight-search {
+    padding-right: 0;
+    width: 38%;
+  }
+  .c-flight-search-result .result {
+    padding-bottom: 20px;
+  }
+  .c-flight-search-result .result .booking .left-panel .return-trip {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "data": [
+    {
+      "origin": "New Delhi",
+      "destination": "Goa",
+      "price": "10000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Pune",
+      "price": "20000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "2000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "3000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "4000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "12000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "22000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "21000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "6000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "10000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Hyderabad",
+      "price": "14000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "20000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "30000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "50000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "60000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "11000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "12000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "25000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "40000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Chennai",
+      "price": "9000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "9000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "20000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "22000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "32000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "15000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "28000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "13000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "18000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Kolkatta",
+      "price": "35000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Ahmedabad",
+      "price": "6000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Ahmedabad",
+      "price": "13000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Ahmedabad",
+      "price": "21000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Mumbai",
+      "price": "18500.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Mumbai",
+      "price": "24500.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+
+    {
+      "origin": "New Delhi",
+      "destination": "Mumbai",
+      "price": "8000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Mumbai",
+      "price": "7500.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Mumbai",
+      "price": "9000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    },
+    {
+      "origin": "New Delhi",
+      "destination": "Ahmedabad",
+      "price": "19000.00",
+      "depart_time": "10.00 AM",
+      "arrival_time": "12.00 PM"
+    }
+  ]
+}

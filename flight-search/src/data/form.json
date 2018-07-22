@@ -1,0 +1,29 @@
+{
+    "label": {
+        "city_origin": "Enter Origin City",
+        "city_destination": "Enter Destination City",
+        "date_departure": "Departure Date",
+        "date_return": "Return Date",
+        "passengers": "Passengers"
+    },
+    "passenger": [
+        {"id":""},
+        {"id": "1"},
+        {"id": "2"},
+        {"id": "3"},
+        {"id": "4"},
+        {"id": "5"}
+    ],
+    "button" : [
+        {
+            "id": "one-way",
+            "className": "btn-one-way",
+            "text": "One way"
+        },
+        {
+            "id": "return-way",
+            "className": "btn-return-way",
+            "text": "Return way"
+        }
+    ]
+}

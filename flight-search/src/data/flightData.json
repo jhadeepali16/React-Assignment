@@ -1,0 +1,9 @@
+{
+    "origin": "New Delhi",
+    "destination": "Mumbai",
+    "from": "Tue 10, 2018",
+    "to": "Fr 20, 2018",
+    "price": "10000.00",
+    "depart_time": "10.00 AM",
+    "arrival_time": "12.00 PM"
+}
